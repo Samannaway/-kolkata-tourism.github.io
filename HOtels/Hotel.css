@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+}
+
+html{
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.2)),url('victoria.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-size: 100%;
+}
+
+#navBar{
+    width: auto;
+    min-height:14vh;
+    margin-top: 0rem;
+    margin-bottom:0rem;
+    display: grid;
+    place-items: center;
+    background-color: rgba(0,0,0,0.3);
+    font-size: 130%;
+    color: #fff;
+    font-size: 210%;
+    font-family: 'Grandstander';
+}
+
+.Webanc{
+    margin-top: 10rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #0c0200;
+    background-color: #e5aa1d;
+    padding: 1rem 3rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    transition: all 0.25s;
+    font-size: 100%;
+    justify-content: space-around;
+}
+
+#hotelweb{
+    width: auto;
+    min-height:10vh;
+    margin-top: 0rem;
+    margin-bottom:0rem;
+    display: grid;
+    place-items: center;
+    background-color: rgba(0,0,0,0.0);
+    font-size: 130%;
+    color: #fff;
+}
+
+#topic{
+    width: auto;
+    min-height:10vh;
+    margin-top: 0rem;
+    margin-bottom:0rem;
+    display: grid;
+    place-items: center;
+    background-color: rgba(0,0,0,0.0);
+    font-size: 230%;
+    color: #fff;
+}
+
+.WebPara{
+    font-size: 170%;
+    font-family: 'Crimson Text';
+    justify-content: space-around;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+.Webanc:hover{
+    padding: 2rem 4rem;
+    cursor: pointer;
+    background-color:orange;
+}
+
+#head{
+    font-family: 'Grandstander', cursive;
+}
+
+#button{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: rgba(0,0,0,0);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    transition: all 0.25s;
+    font-size: 1rem;
+}
+
+#button:hover{
+    color: dimgray;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+
+@media(max-width:998px){
+    html{
+        font-size: 50%;
+    }
+}

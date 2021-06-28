@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+}
+
+html{
+    background-image:white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size:100%;
+}
+
+#navBar{
+    width: auto;
+    min-height:16vh;
+    margin-top: 0rem;
+    margin-bottom:0rem;
+    display: grid;
+    place-items: center;
+    background-color: rgb(110, 218, 60);
+    font-size: 200%;
+    color: black;
+    font-family: 'Staatliches',cursive;
+}
+
+#mainDiv{
+    width: 100vw;
+    min-height:100vh;
+    margin: auto;
+    display: grid;
+    place-items: center;
+    background-color: rgb(160, 235, 248);
+}
+
+#innerDiv{
+    place-items: center;
+    height: 54vh;
+    width: 50vw;
+    background-color:rgb(246, 225, 106);;
+    padding:3rem 7rem;
+    border-radius:1rem;
+    box-shadow:0 1rem 1rem rgba(0,0,0,4);
+    margin-top:1rem;
+    color: #fff;
+    justify-content: space-around;
+    color: black;
+}
+
+.writings{
+    font-size: 180%;
+    margin-top: 0.5rem;
+    justify-content: space-around;
+}
+
+#topic{
+    font-size: 300%;
+    margin-bottom: 4rem;
+}
+
+#icon{
+    height: 20%;
+}
+
+#Weather{
+    font-size: 250%;
+    font-weight: bold;
+}
+
+#temperature{
+    font-size: 230%;
+    font-weight: bold;
+}
+
+#button{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: rgba(0,0,0,0);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    transition: all 0.25s;
+    font-size: 1rem;
+}
+
+#button:hover{
+    color: dimgray;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+
+@media (max-width:998px) {
+    html{
+        font-size: 50%;
+    }
+
+    #innerDiv{
+        height: 60vh;
+        width: 100vw;
+        place-items: center;
+    }
+}
+
+
+/* #innerDiv{
+    place-items: center;
+    height: 50vh;
+    width: 50vw;
+    background-color:rgb(246, 225, 106);;
+    padding:2rem 7rem;
+    border-radius:1rem;
+    box-shadow:0 1rem 1rem rgba(0,0,0,4);
+    margin-top:1rem;
+    color: #fff;
+    justify-content: space-around;
+    color: black;
+} */
